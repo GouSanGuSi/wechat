@@ -1,0 +1,4 @@
+<!-- pages/onscroll/onscroll.wxml -->
+<scroll-view class="container" scroll-x="{{true}}" bindscroll="getScoll">
+  <view wx:for="{{10}}" class="item">{{item}}</view>
+</scroll-view>
