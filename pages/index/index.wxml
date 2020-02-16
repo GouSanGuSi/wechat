@@ -1,0 +1,12 @@
+<!-- index.wxml -->
+<view class="container">
+  <view>
+    <view>{{messages}}</view>
+    <button bindtap="gethelp">按钮</button>
+    <button open-type="getUserInfo" bindgetuserinfo="getHandUserinfo">授权个人信息</button>
+    <!-- 用于信息的展示 -->
+    <!-- <open-data type="groupName"></open-data> -->
+    <open-data type="userLanguage"></open-data>
+  </view>
+  <view wx:for="{{list}}">{{item.name}}</view>
+</view>
