@@ -1,4 +1,6 @@
 /* pages/onscroll/onscroll.wxss */
+@import '../../style/content.wxss';
+
 .container{
   background-color: pink;
   white-space: nowrap;
