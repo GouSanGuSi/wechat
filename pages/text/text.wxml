@@ -1,0 +1,11 @@
+<!-- pages/text/text.wxml -->
+<!-- 该组件是一个行内块元素 -->
+<text selectable>文本组件\n</text>
+<text>文本组件\n</text>
+<text space="emsp">文本组件222</text>
+<text space="ensp">文本组件111</text>
+<text space="nbsp">文本组件333</text>
+<button bind:tap="getPhont">选择图片</button>
+<image mode="aspectFit" src="{{imagePath}}"></image>
+<!-- input的事件 -->
+<input bindinput="changVal" placeholder="添加种类" password />
