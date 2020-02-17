@@ -1,0 +1,19 @@
+<!-- pages/wxs/wxs.wxml -->
+<!-- <text>pages/wxs/wxs.wxml</text> -->
+<!-- <wxs module="infor">
+  var message = 'hello word'
+  var height = '158cm'
+  var sum  = function(a,b){
+    return a+b
+  }
+  module.exports = {
+    message:message,
+    height:height,
+    sum:sum
+  }
+</wxs> -->
+<!-- wxs 应用场景 需要的一些过滤器,保留两位小数,或者是时间戳的转换等等,就是不需要时间就调用,并且有逻辑处理的 -->
+<!-- 路径一定要写相对路径  还有modeule -->
+<wxs src="../../wxs/infor.wxs" module="infor"></wxs>
+<view>{{infor.message}}</view>
+<view>{{infor.sum(20,30)}}</view>
