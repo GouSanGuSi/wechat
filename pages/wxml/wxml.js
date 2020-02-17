@@ -6,7 +6,12 @@ Page({
    */
   data: {
     messages: true,
-    scorce: 50
+    scorce: 50,
+    num: [
+      [1, 2, 3, 4],
+      [5, 6, 7, 8],
+      [9, 10]
+    ]
   },
   handGetchange () {
     this.setData({
