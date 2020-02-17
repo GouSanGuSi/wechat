@@ -25,3 +25,7 @@
 <block wx:for="{{num}}" wx:for-item="innernume" wx:for-key="item">
   <view wx:for="{{innernume}}" wx:for-key="{{'index'}}">{{item}}</view>
 </block>
+<!-- 模板的使用 -->
+<import src="/template/content.wxml" />
+<template is="contTep" data="{{content:'haha',ButtonText:'警告'}}"></template>
+<!-- 提取公共模板 -->

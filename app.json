@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/wxml/wxml",
     "pages/onscroll/onscroll",
     "pages/text/text",
-    "pages/index/index",
     "pages/user/user",
     "pages/about/about"
   ],
