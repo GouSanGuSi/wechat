@@ -1,0 +1,23 @@
+<!-- pages/wxml/wxml.wxml -->
+<button bind:tap="handGetchange">切换</button>
+<button size="mini" bind:tap="handAdd" disabled="{{scorce<100?false:true}}">分数递增</button>
+<view wx:if="{{messages}}">哈哈</view>
+<view wx:if="{{scorce>90}}">优秀</view>
+<view wx:elif="{{scorce>=80}}">良好</view>
+<view wx:elif="{{scorce>=60}}">及格</view>
+<view wx:else>不及格</view>
+<view>--------------------------</view>
+<!-- wx:if 和 hidden 的区别 
+相同点: 显示状态下两者是相同的
+不同点:hidden 是控制组件的display:none
+ if 当组件是false 的时候是不会渲染的
+应用场景: 如果需要频繁切换为了性能考虑建议使用hidden 
+否则使用if -->
+<view wx:if="{{false}}">wxif控制</view>
+<view hidden="{{true}}">hidden 控制</view>
+<!-- 可以使用view便签来实现 但是view 是一个组件,页面在渲染的时候会被渲染出来,但是 block 不会被单独渲染,考虑性能方法方面会使用block 标签,可以理解成template -->
+<block wx:if="{{false}}">
+  <view>哈哈</view>
+  <view>哈哈132</view>
+  <view>哈哈213</view>
+</block>

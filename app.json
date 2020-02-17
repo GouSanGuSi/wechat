@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/wxml/wxml",
     "pages/onscroll/onscroll",
     "pages/text/text",
     "pages/index/index",
