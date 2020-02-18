@@ -17,3 +17,10 @@
 <wxs src="../../wxs/infor.wxs" module="infor"></wxs>
 <view>{{infor.message}}</view>
 <view>{{infor.sum(20,30)}}</view>
+<view class="conten">
+  <block wx:for="{{list}}" wx:key="index">
+    <view class="item" bind:tap="handItem" data-index="{{index}}" data-item="{{item}}">
+      {{item}}
+    </view>
+  </block>
+</view>
