@@ -1,0 +1,4 @@
+<!-- components/nav.wxml -->
+<!-- <text>components/nav.wxml</text> -->
+<view class="title">我是标题</view>
+<view class="content">我是内容</view>

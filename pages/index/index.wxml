@@ -8,7 +8,8 @@
     <!-- <open-data type="groupName"></open-data> -->
     <open-data type="userLanguage"></open-data>
   </view>
-  <view wx:for="{{list}}">{{item.name}}</view>
+  <view wx:for="{{list}}" wx:key="index">{{item.name}}</view>
   <import src="/template/content.wxml"></import>
   <template is="contTep" data="{{content:'嘻嘻',ButtonText:'取消'}}"></template>
 </view>
+<prop title="heihei" content="我是heihe的内容" my-class="red-text"></prop>

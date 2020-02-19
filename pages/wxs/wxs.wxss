@@ -1,1 +1,4 @@
 /* pages/wxs/wxs.wxss */
+.red{
+  color:red;
+}

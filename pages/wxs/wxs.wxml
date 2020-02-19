@@ -24,3 +24,10 @@
     </view>
   </block>
 </view>
+<!-- 自定义组件使用的步骤 -->
+<!-- 1.如果想要在当前组件使用必须先要注册 -->
+<!-- 如果要注册全局组件 需要在全局的app.json 中设置 这样所有的组件都能使用了  自定义组件的基本使用,下面的是样式细节 -->
+<nav></nav>
+<!-- 父传子通过属性继承的方式传递 -->
+<prop title="哈哈" content="我是哈哈的内容" my-class="red"></prop>
+<prop title="heihei" content="我是heihe的内容"></prop>

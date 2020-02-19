@@ -1,4 +1,7 @@
 {
+  "usingComponents": {
+    "nav": "/components/nav/nav"
+  },
   "pages": [
     "pages/wxs/wxs",
     "pages/index/index",
