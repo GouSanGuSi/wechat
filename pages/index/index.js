@@ -4,6 +4,7 @@
 // const app = getApp()
 // console.log(app.globalData)
 // 调用Page()方法称之为注册一个页面
+import request from '../../tools/network'
 Page({
   // 初始化一些数据
   data: {
@@ -13,16 +14,17 @@ Page({
   // 执行一些生命周期函数 和请求
   onLoad () {
     // console.log('onLoad  页面被加载出来了')
-    wx.request({
+    // 自己封装了 请求函数 request 解决了回调地狱问题
+    request({
       url: 'http://ttapi.research.itcast.cn/mp/v1_0/channels',
-      success: (res) => {
-        // console.log(res.data.data.channels)
-        const data = res.data.data.channels
-        console.log(this)
-        this.setData({
-          list: data
-        })
-      }
+
+    }).then((res) => {
+      // console.log(res.data.data)
+      this.setData({
+        list: res.data.data.channels
+      })
+    }).catch((err) => {
+
     })
   },
   onShow () {

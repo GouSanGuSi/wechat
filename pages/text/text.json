@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "pre-son": "../../components/pren-son/pren-son"
+    "pre-son": "../../components/pren-son/pren-son",
+    "comp-slot": "/components/comp-slot/comp-slot"
   }
 }

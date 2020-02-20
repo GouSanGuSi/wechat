@@ -1,0 +1,14 @@
+<!-- components/comp-slot/comp-slot.wxml -->
+<!-- <text>components/comp-slot/comp-slot.wxml</text> -->
+<!-- 单个插槽 -->
+<view>我是组件的头部</view>
+<view>
+  <slot name="slot1"></slot>
+</view>
+<view>
+  <slot name="slot2"></slot>
+</view>
+<view>
+  <slot name="slot3"></slot>
+</view>
+<view>我是组件的footder</view>

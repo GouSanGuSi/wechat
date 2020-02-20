@@ -3,10 +3,10 @@
     "nav": "/components/nav/nav"
   },
   "pages": [
+    "pages/index/index",
     "pages/text/text",
     "pages/user/user",
     "pages/wxs/wxs",
-    "pages/index/index",
     "pages/wxml/wxml",
     "pages/onscroll/onscroll",
     "pages/about/about"
