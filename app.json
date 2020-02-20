@@ -3,12 +3,12 @@
     "nav": "/components/nav/nav"
   },
   "pages": [
+    "pages/text/text",
     "pages/user/user",
     "pages/wxs/wxs",
     "pages/index/index",
     "pages/wxml/wxml",
     "pages/onscroll/onscroll",
-    "pages/text/text",
     "pages/about/about"
   ],
   "tabBar": {

@@ -1,0 +1,3 @@
+<!-- components/pren-son/pren-son.wxml -->
+<!-- <text>components/pren-son/pren-son.wxml</text> -->
+<view>现有数量:{{outdata}}</view>

@@ -9,3 +9,6 @@
 <image mode="aspectFit" src="{{imagePath}}"></image>
 <!-- input的事件 -->
 <input bindinput="changVal" placeholder="添加种类" password />
+<!-- 自定义组件的练习 -->
+<button size="mini" bind:tap="handchangeNum">改变现有数量</button>
+<pre-son id="perSon"></pre-son>
