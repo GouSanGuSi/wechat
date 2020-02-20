@@ -1,0 +1,15 @@
+/* components/comp-event/comp-event.wxss */
+.conter{
+  display: flex;
+  /* background-color: skyblue; */
+}
+.conter view{
+  text-align: center;
+  flex: 1;
+  /* margin: 30px; */
+}
+.active{
+  color:red;
+  padding:10rpx 15rpx;
+  border-bottom: 1rpx solid gray;
+}

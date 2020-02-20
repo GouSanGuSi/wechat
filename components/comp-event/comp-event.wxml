@@ -1,0 +1,11 @@
+<!-- components/comp-event/comp-event.wxml -->
+<!-- <text>components/comp-event/comp-event.wxml</text> -->
+<view class="conter">
+  <block wx:for="{{titles}}" wx:key="index">
+    <view bind:tap="handShow" data-index="{{index}}">
+      <!-- {{item}} -->
+      <text class="{{currentindex==index? 'active':''}}">{{item}}</text>
+    </view>
+  </block>
+</view>
+<!-- <button size="mini" bind:tap="handadd">+1</button> -->

@@ -5,9 +5,18 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    count: 0
   },
-
+  inadd (event) {
+    // console.log('user 点击')
+    console.log(event.detail)
+    this.setData({
+      count: this.data.count + 1
+    })
+  },
+  usershow (event) {
+    console.log(event.detail.title, event.detail.index)
+  },
   /**
    * 生命周期函数--监听页面加载
    */

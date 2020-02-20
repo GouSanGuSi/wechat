@@ -1,2 +1,4 @@
-<!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<!-- pages/user/user.wxml -->
+<!-- <text>pages/user/user.wxml</text> -->
+<view>统计点击次数{{count}}</view>
+<comy-event bind:useshow="usershow" titles="{{['裤子','衣服','鞋子','帽子','内裤']}}" />

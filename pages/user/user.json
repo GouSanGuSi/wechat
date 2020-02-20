@@ -1,5 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "comy-event": "/components/comp-event/comp-event"
+  },
   "navigationBarTitleText": "个人中心",
   "enablePullDownRefresh": true
 }
