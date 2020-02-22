@@ -13,3 +13,5 @@
   <template is="contTep" data="{{content:'嘻嘻',ButtonText:'取消'}}"></template>
 </view>
 <prop title="heihei" content="我是heihe的内容" my-class="red-text"></prop>
+<button size="mini" open-type="share">分享</button>
+<navigator url="/pages/wxml/wxml">跳转到关于页面</navigator>

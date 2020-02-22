@@ -31,3 +31,5 @@
 <!-- 父传子通过属性继承的方式传递 -->
 <prop title="哈哈" content="我是哈哈的内容" my-class="red"></prop>
 <prop title="heihei" content="我是heihe的内容"></prop>
+<navigator open-type="navigateBack">返回</navigator>
+<!-- getCurrentPages 获取当前所有的活跃页面 -->

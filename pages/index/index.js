@@ -64,5 +64,11 @@ Page({
   // onPullDownRefresh () {
   //   console.log('下拉刷新')
   // }
-
+  onShareAppMessage () {
+    return {
+      title: '你好 hell word',
+      path: '/pages/user/user.wxml',
+      imageUrl: 'http://qukufile2.qianqian.com/data2/pic/0d8e3007d1cb42db293a80f12e9c4771/612860331/612860331.JPG@s_1,w_300,h_300'
+    }
+  }
 })

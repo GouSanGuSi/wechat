@@ -7,6 +7,10 @@ Page({
   data: {
     imagePath: ''
   },
+  onLoad: function (query) {
+    console.log(query)
+
+  },
   getPhont () {
     // 内置方法调用打开相册的接口
     wx.chooseImage({
@@ -30,6 +34,22 @@ Page({
     // })
     data.jianData(10)
     // console.log(data.data.outdata + 10)
+  },
+  handchangs () {
+    wx.navigateTo({
+      // 可以传递一个字符串,可以传多个参数中间中&符号链接,可以传递对象,但是要转换成字符串,
+      // 接收到再转转回去
+      url: '../../pages/wxml/wxml?name=' + JSON.stringify({ name: 'zhangs' }),
+      success: function (res) {
+        console.log(res)
+      },
+      fail: function (res) {
+        console.log(res)
+      },
+      complete: function (res) {
+        console.log(res)
+      },
+    })
   }
 
 })

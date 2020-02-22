@@ -22,8 +22,8 @@
   <view>哈哈213</view>
 </block>
 <!-- 当遇到多层循环嵌套的时候,可以给item index 起别名 -->
-<block wx:for="{{num}}" wx:for-item="innernume" wx:for-key="item">
-  <view wx:for="{{innernume}}" wx:for-key="{{'index'}}">{{item}}</view>
+<block wx:for="{{num}}" wx:for-item="innernume" wx:key="item">
+  <view wx:for="{{innernume}}" wx:key='index'>{{item}}</view>
 </block>
 <!-- 模板的使用 -->
 <import src="/template/content.wxml" />

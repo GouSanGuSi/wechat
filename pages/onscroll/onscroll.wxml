@@ -1,6 +1,6 @@
 <!-- pages/onscroll/onscroll.wxml -->
 <scroll-view class="container" scroll-x="{{true}}" bindscroll="getScoll">
-  <view wx:for="{{10}}" class="item">{{item}}</view>
+  <view wx:for="{{10}}" class="item" wx:key="index">{{item}}</view>
 </scroll-view>
 <view class="page__bd">
   <view class="weui-search-bar">

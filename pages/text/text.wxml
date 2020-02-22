@@ -17,3 +17,6 @@
   <slider min="" max="" step="1" slot="slot2" />
   <text slot="slot3">我是slot3的插槽</text>
 </comp-slot>
+<navigator url="../../pages/onscroll/onscroll">跳转到关于页面</navigator>
+<navigator url="/pages/index/index" open-type="switchTab">跳转首页</navigator>
+<button size="mini" bind:tap="handchangs">点击跳转传参</button>

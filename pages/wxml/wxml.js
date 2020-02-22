@@ -13,6 +13,10 @@ Page({
       [9, 10]
     ]
   },
+  onLoad: function (query) {
+    console.log(JSON.parse(query.name))
+
+  },
   handGetchange () {
     this.setData({
       messages: !this.data.messages
